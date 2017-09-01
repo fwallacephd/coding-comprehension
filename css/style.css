@@ -1,0 +1,149 @@
+/* Colors
+From Julie's Logo:
+Brown:
+#673210
+rgba(103, 50, 1);
+
+Red:
+#9F181A
+rgba(159, 24, 26);
+
+From Faith's logo:
+Light Blue: #28ABE3
+Dark Blue: #2e3192
+
+*/
+
+/*SPAN*/
+
+/*OVERALL*/
+html,
+body {
+    height: 100%;
+}
+
+
+/* FONT FACES */
+@font-face {
+
+}
+
+
+/* SECTION COVER */
+#cover {
+    font-family: 'Cantora One', sans-serif;
+    text-align: center;
+    height: 65%;
+    background: url(../images/codingimage.jpg) center;
+    background-size: cover;
+    color: ;
+    border-bottom: 5px solid #2e3192;
+}
+
+.title {
+    font-size: 65px
+}
+
+.with {
+    font-family: 'Imprima', sans-serif;
+    font-size: 40px
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.ampersand {
+    font-family: 'Archivo Black', sans-serif;
+    vertical-align: bottom;
+    font-size: 90px;
+}
+
+.logo1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 15px;
+}
+
+.logo2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right: 15px;
+}
+
+
+/* NAVBAR */
+#navigation {
+    vertical-align: center;
+    margin-top: 0px;
+    padding: 0 0 0 0;
+}
+
+.nav-link {
+    font-family: 'Oswald', sans-serif;
+    color: #28ABE3;
+    font-size: 20px;
+}
+
+#nav-items {
+    color: #28ABE3;
+}
+
+.nav-link a:hover {
+    border-bottom: 4px solid #9F181A;
+    transition: 0.5s;
+}
+
+/*INTRODUCTION*/
+#introduction {
+    border-bottom: 5px solid #000080;
+}
+
+.photo {
+    width: 250px;
+}
+
+.quote {
+    color: #9F181A;
+    margin-top: 0px;
+    font-family: 'Cantora One', sans-serif;
+}
+
+.intro-text-body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+/*ABOUT ME*/
+#about {
+    border-bottom: 5px solid #000080;
+    background: url(../images/paper.png) center;
+}
+
+.about-title {
+    color: #9F181A;
+    font-family: 'Cantora One', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.philosophy,
+.experience,
+.education {
+    margin-top: 20px;
+    width: 20%;
+}
+
+
+
+.philosopy-text,
+.experience-text,
+.education-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.copyright {
+    text-align: center;
+}
